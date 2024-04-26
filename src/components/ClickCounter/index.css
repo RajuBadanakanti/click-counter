@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-container {
+  width: 70%;
+  text-align: center;
+}
+.heading {
+  color: #2d3a35;
+  font-family: 'roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.para {
+  color: #2d3a35;
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+.count {
+  color: #c20a72;
+  font-family: 'roboto';
+  font-size: 32px;
+  font-weight: bold;
+}
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 12px;
+  height: 32px;
+  width: 88px;
+
+  cursor: pointer;
+  outline: none;
+
+  padding-top: 8px;
+  padding-bottom: 10px;
+  border: 0px solid;
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .count-container {
+    width: 65%;
+    text-align: center;
+  }
+  .heading {
+    color: #2d3a35;
+    font-family: 'roboto';
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .para {
+    color: #2d3a35;
+    font-family: 'roboto';
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .count {
+    color: #c20a72;
+    font-family: 'roboto';
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .button {
+    background-color: #007bff;
+    color: #ffffff;
+    font-family: 'roboto';
+    font-size: 20px;
+    height: 55px;
+    width: 135px;
+
+    cursor: pointer;
+    outline: none;
+
+    padding-top: 15px;
+    padding-bottom: 16px;
+    border: 0px solid;
+    border-radius: 6px;
+  }
+}
